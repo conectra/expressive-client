@@ -1,0 +1,13 @@
+{
+  "name": "conectra/expressive-client",
+  "type": "package",
+  "require": {
+    "solis/phpmagic": "~v1.0",
+    "curl/curl": "^1.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Conectra\\Expressive\\Client\\": "src/"
+    }
+  }
+}
